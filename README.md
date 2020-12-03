@@ -8,7 +8,13 @@ This exploit was developed to pull the interesting credentials straight out of t
 
 Google Dork: `inurl:remote/login?lang=`
 
-This vulnerability affects the following versions:
+## Resources and Information
+-	Fortinet PSIRT: https://www.fortiguard.com/psirt/FG-IR-18-384 
+- Official CVE: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-13379 
+- Exploit DB: https://www.exploit-db.com/exploits/47287 
+- Fortinet Blog: https://www.fortinet.com/blog/business-and-technology/update-regarding-cve-2018-13379 
+
+## Affected Products
 ```
 - FortiOS 6.0 - 6.0.0 to 6.0.4
 - FortiOS 5.6 - 5.6.3 to 5.6.7
@@ -17,11 +23,11 @@ This vulnerability affects the following versions:
 ONLY if the SSL VPN service (web-mode or tunnel-mode) is enabled
 ```
 
-Solutions
+## Solutions
 Upgrade to FortiOS 5.4.13, 5.6.8, 6.0.5 or 6.2.0 and above.
 Check Upgrade path here: https://docs.fortinet.com/upgrade-tool 
 
-Recommendation if Affected
+## Recommendation if Affected
 1.	Issue a password change/reset for all users with SSL-VPN access, alert users to changes passwords on other systems if the same password is used.
   a.	Consider MFA implementation.
   b.	Consider Cyber Security Training for all staff
