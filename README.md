@@ -28,14 +28,14 @@ Check Upgrade path here: https://docs.fortinet.com/upgrade-tool
 
 ## Recommendation if Affected
 - Issue a password change/reset for all users with SSL-VPN access, alert users to changes passwords on other systems if the same password is used.
--- Consider MFA implementation.
--- Consider Cyber Security Training for all staff
+  - Consider MFA implementation.
+  - Consider Cyber Security Training for all staff
 - Back up current FortiGate configurations prior to the upgrade.
--- Consider reviewing policies
--- Consider reviewing FortiGate Hardening Guides: https://docs.fortinet.com/document/fortigate/6.4.0/hardening-your-fortigate/612504/hardening-your-fortigate 
--- Consider Geo Restrict Access to Limit access to specific hosts, and specify the addresses of the hosts that are allowed to connect to this VPN.
+  - Consider reviewing policies
+  - Consider reviewing FortiGate Hardening Guides: https://docs.fortinet.com/document/fortigate/6.4.0/hardening-your-fortigate/612504/hardening-your-fortigate 
+  - Consider Geo Restrict Access to Limit access to specific hosts, and specify the addresses of the hosts that are allowed to connect to this VPN.
 - Download and upgrade the FortiGate (Download current Firmware and Upgrade)
--- NOTE: Check Upgrade path here: https://docs.fortinet.com/upgrade-tool 
+  - NOTE: Check Upgrade path here: https://docs.fortinet.com/upgrade-tool 
 
 
 
