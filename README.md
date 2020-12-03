@@ -9,7 +9,8 @@ This exploit was developed to pull the interesting credentials straight out of t
 Google Dork: `inurl:remote/login?lang=`
 
 ## Special Thanks and Credits
-- 7Elements - https://github.com/7Elements/Fortigate
+- @7Elements - https://github.com/7Elements/Fortigate - Source of Fork
+- @SoarinFerret https://github.com/SoarinFerret/Fortigate - Update byte lookups so script works
 - John M (@x41x41x41), David S (@DavidStubley)
 - Exploit Author: Carlos E. Vieira - https://www.exploit-db.com/exploits/47287
 - Bousselham Anas - https://github.com/anasbousselham/fortiscan
