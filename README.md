@@ -57,9 +57,14 @@ Tool developed by @x41x41x41 and @DavidStubley
 usage: fortigate.py [-h] [-i INPUT] [-o OUTPUT]
 
 optional arguments:
-  -h, --help            show this help message and exit
-  -i INPUT, --input INPUT
-                        Target URL or Domain
-  -o OUTPUT, --output OUTPUT
-                        File to output discovered credentials too
+  -h, --help            
+                        show this help message and exit
+  -c CREDSCAN, --credscan (y/n)
+                        Execute Credential Pull y/n (Yes/No) [Default=n]
+  -f FILENAME, --filename (Target list Input Filename) 
+                        Target URL or Domain [Default=iplist]
+  -i INPUT, --input (IP/DOMAIN)
+                        Target URL or Domain TARGET:PORT [Default=None]
+  -o OUTPUT, --output (Output Filename)
+                        File to output discovered credentials too [Default=Outout]
 ```
