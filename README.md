@@ -8,6 +8,13 @@ This exploit was developed to pull the interesting credentials straight out of t
 
 Google Dork: `inurl:remote/login?lang=`
 
+## Special Thanks and Credits
+7Elements - https://github.com/7Elements/Fortigate
+John M (@x41x41x41), David S (@DavidStubley)
+Exploit Author: Carlos E. Vieira - https://www.exploit-db.com/exploits/47287
+Bousselham Anas - https://github.com/anasbousselham/fortiscan
+@Sudo, @Mytre
+
 ## Resources and Information
 -	Fortinet PSIRT: https://www.fortiguard.com/psirt/FG-IR-18-384 
 - Official CVE: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-13379 
