@@ -18,6 +18,7 @@ Google Dork: `inurl:remote/login?lang=`
 -	FortiOS 6.0 - 6.0.0 to 6.0.4
 -	FortiOS 5.6 - 5.6.3 to 5.6.7
 -	FortiOS 5.4 - 5.4.6 to 5.4.12
+
 *(other branches and versions than above are not impacted)*
 *ONLY if the SSL VPN service (web-mode or tunnel-mode) is enabled*
 
