@@ -10,9 +10,13 @@ Google Dork: `inurl:remote/login?lang=`
 
 ## Special Thanks and Credits
 7Elements - https://github.com/7Elements/Fortigate
+
 John M (@x41x41x41), David S (@DavidStubley)
+
 Exploit Author: Carlos E. Vieira - https://www.exploit-db.com/exploits/47287
+
 Bousselham Anas - https://github.com/anasbousselham/fortiscan
+
 @Sudo, @Mytre
 
 ## Resources and Information
