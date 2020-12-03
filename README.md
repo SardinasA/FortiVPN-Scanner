@@ -1,5 +1,5 @@
 # FG-IR-18-384 (CVE-2018-13379) Scanner/Exploitation Tool
-*Exploit allowing for the recovery of cleartext credentials. This tool is provided for testing purposes only. Only run it against infrastructure for which you have recieved permission to test.*
+*Exploit allowing for the recovery of cleartext credentials. .text-red This tool is provided for testing/educational purposes only, Please Don't Use for illegal Activity. Only run it against infrastructure for which you have recieved permission to test.*
 
 Headnod to those who discovered the exploit, more information by the researcher can be found here: 
 https://blog.orange.tw/2019/08/attacking-ssl-vpn-part-2-breaking-the-fortigate-ssl-vpn.html
