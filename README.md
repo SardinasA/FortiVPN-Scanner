@@ -18,13 +18,13 @@ Google Dork: `inurl:remote/login?lang=`
 -	FortiOS 6.0 - 6.0.0 to 6.0.4
 -	FortiOS 5.6 - 5.6.3 to 5.6.7
 -	FortiOS 5.4 - 5.4.6 to 5.4.12
-* (other branches and versions than above are not impacted)
-* ONLY if the SSL VPN service (web-mode or tunnel-mode) is enabled
+*(other branches and versions than above are not impacted)*
+*ONLY if the SSL VPN service (web-mode or tunnel-mode) is enabled*
 
 
 ## Solutions
 Upgrade to FortiOS 5.4.13, 5.6.8, 6.0.5 or 6.2.0 and above.
-Check Upgrade path here: https://docs.fortinet.com/upgrade-tool 
+Check Upgrade path here: https://docs.fortinet.com/upgrade-tool
 
 ## Recommendation if Affected
 - Issue a password change/reset for all users with SSL-VPN access, alert users to changes passwords on other systems if the same password is used.
