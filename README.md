@@ -66,5 +66,5 @@ optional arguments:
   -i INPUT, --input (IP/DOMAIN)
                         Target URL or Domain TARGET:PORT [Default=None]
   -o OUTPUT, --output (Output Filename)
-                        File to output discovered credentials too [Default=Outout]
+                        File to output discovered credentials too [Default=Output]
 ```
