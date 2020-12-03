@@ -10,12 +10,29 @@ Google Dork: `inurl:remote/login?lang=`
 
 This vulnerability affects the following versions:
 ```
-•	FortiOS 6.0 - 6.0.0 to 6.0.4
-•	FortiOS 5.6 - 5.6.3 to 5.6.7
-•	FortiOS 5.4 - 5.4.6 to 5.4.12
+- FortiOS 6.0 - 6.0.0 to 6.0.4
+- FortiOS 5.6 - 5.6.3 to 5.6.7
+- FortiOS 5.4 - 5.4.6 to 5.4.12
 (other branches and versions than above are not impacted)
 ONLY if the SSL VPN service (web-mode or tunnel-mode) is enabled
 ```
+
+Solutions
+Upgrade to FortiOS 5.4.13, 5.6.8, 6.0.5 or 6.2.0 and above.
+Check Upgrade path here: https://docs.fortinet.com/upgrade-tool 
+
+Recommendation if Affected
+1.	Issue a password change/reset for all users with SSL-VPN access, alert users to changes passwords on other systems if the same password is used.
+  a.	Consider MFA implementation.
+  b.	Consider Cyber Security Training for all staff
+2.	Back up current FortiGate configurations prior to the upgrade.
+  a.	Consider reviewing policies
+  b.	Consider reviewing FortiGate Hardening Guides: https://docs.fortinet.com/document/fortigate/6.4.0/hardening-your-fortigate/612504/hardening-your-fortigate 
+  c.	Consider Geo Restrict Access to Limit access to specific hosts, and specify the addresses of the hosts that are allowed to connect to this VPN.
+3.	Download and upgrade the FortiGate (Download current Firmware and Upgrade)
+  a.	NOTE: Check Upgrade path here: https://docs.fortinet.com/upgrade-tool 
+
+
 
 ![Tool in action](https://i.imgur.com/DpKKzsH.png)
 
